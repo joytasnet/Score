@@ -7,7 +7,7 @@ public class MorozumiMain{
 		int[] scores = new int[n];
 		for(int i=0; i<scores.length; i++){
 			System.out.print(i+1 + "人目の点数を入力>>" );
-		scores[i] = new Scanner(System.in).nextInt();
+			scores[i] = new Scanner(System.in).nextInt();
 		}
 
 		System.out.println("--結果--");
