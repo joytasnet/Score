@@ -25,7 +25,7 @@ public class ShotaMainn{
 				min=scores[i];
 			}
 		}
-		System.out.println("平均;"+(double)sum/scores.length);
+		System.out.printf("平均;%.1f%n",(double)sum/scores.length);
 		System.out.println("最高点:"+max);
 		System.out.println("最低点:"+min);
 	}
