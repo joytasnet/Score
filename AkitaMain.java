@@ -13,7 +13,7 @@ public class AkitaMain{
 		}
 		System.out.println("--結果--");
 		System.out.println(Arrays.toString(scores));
-		System.out.println("平均:"+(double)sum/n);
+		System.out.printf("平均:%.1f%n",(double)sum/n);
 		int max =scores[0];
 		int min =scores[0];
 		for(int i=1;i<n;i++){
